@@ -1,0 +1,41 @@
+# Rust
+/target/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*_private*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+*.txt
+
+# Test data
+test_data/
+*.json
+
+# Binaries
+sandwich_bot
+*.exe
+*.dll
+*.so
+*.dylib
