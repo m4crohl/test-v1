@@ -113,5 +113,4 @@ pub const SWAP_TOPIC: &str = "0xd78ad95fa46c994b6551d0da85fc275fe613ce37657fb8d5
 // Configuration des limites
 pub const MAX_REQUESTS_PER_SECOND: u32 = 10;
 pub const REQUEST_DELAY_MS: u64 = 100; // 100ms entre chaque requête
-pub const MAX_RETRIES: u32 = 3;
 pub const BACKOFF_BASE_MS: u64 = 100;
